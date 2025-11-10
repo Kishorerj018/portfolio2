@@ -111,11 +111,20 @@
       .hero {
         min-height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("https://github.com/Kishorerj018/portfolio2/blob/master/image.png.jpg");
+          url("https://raw.githubusercontent.com/Kishorerj018/portfolio2/master/hero-background.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--color-white);
+        padding: 100px 20px 50px;
+        position: relative;
       }
+
 
       .hero::before {
         content: "";
@@ -680,17 +689,18 @@
     <!-- About Section -->
     <section id="about">
       <h2 class="section-title">About <span>Me</span></h2>
-      <div class="about-content">
         <div class="about-image">
-          <img src="https://github.com/Kishorerj018/portfolio2/blob/master/image.png.jpg"
+          <img 
+            src="https://raw.githubusercontent.com/Kishorerj018/portfolio2/master/image.png.jpg"
             alt="Kishore Kumar - Python Full Stack Developer"
             style="
             width: 100%;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(50, 184, 198, 0.3);
-            border: 4px solid rgba(50, 184, 198, 0.2); "/>
-
+            border: 4px solid rgba(50, 184, 198, 0.2);"
+            />
         </div>
+
         <div class="about-text">
           <h3>Python Full Stack Developer</h3>
           <p>
